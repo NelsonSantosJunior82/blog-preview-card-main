@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lobster&display=swap');
+*{
+    /*margin: 0px;*/
+    padding: 0px;
+    box-sizing: border;
+    font-family: 'figtree';
+}
+
+ul{
+    list-style-type: none;
+    
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    padding: 5rem 1rem;
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.3rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 0px black;
+}
+
+.container div:first-child img{
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+
+.container h2 {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin: 1.5rem 0 1rem;
+    border-radius: 0.3rem;
+    display: inline-block;
+}
+
+.container p{
+    font-size: 0.9rem;
+    margin: 0rem;
+}
+
+.container p.content{
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 42%);
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
